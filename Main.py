@@ -4,7 +4,7 @@ from shutil import move
 if __name__ == "__main__":
     root_path = Path.home() / "Downloads" #use ... / "Desktop" to clear your desktop
 
-    sort_files_extensions = {".jar": "my_jar_files", ".py": "python_files", ".exe": "executable_files"} #please customise these to your own preferences
+    sort_files_extensions = {".txt": "my_text_files", ".py": "my_python_files", ".exe": "my_executable_files", ".png": "my_pictures", ".jpeg": "my_pictures"} #please customise these to your own preferences
     other_files = "other_files" #all other files will be stored here
 
     for item in list(sort_files_extensions.keys()):
